@@ -7,8 +7,13 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  public login: any = {email: '', password: ''};
+
   constructor(public navCtrl: NavController) {
 
   }
+
+
+  public access (){}
 
 }
